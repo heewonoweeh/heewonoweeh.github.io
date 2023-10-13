@@ -1,39 +1,41 @@
 # Site
-repository: sproogen/resume-theme
+repository: heewonoweeh/heewonoweeh.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: 윤희원(Heewon Yun)
+title: Cloud Engineer
+email: heewonoweeh@gmail.com
+# website: www.github.com/sproogen/resume-theme # 포트폴리오 사이트로 변경**
 
 # Dark Mode (true/false/never)
 darkmode: false
 
+minimal_mistakes_skin: default
+
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+# twitter_username: facespics
+github_username:  heewonoweeh
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+# instagram_username: jameswgrant
+linkedin_username: Heewon Yun
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+# youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
 additional_links:
-- title: itsgoingto.be
+- title: velog
   icon: fas fa-globe
-  url: https://www.itsgoingto.be
+  url: https://velog.io/@heewonoweeh
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,69 +50,143 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  3년 차 클라우드 엔지니어로 Azure 기반의 웹 서비스를 설계, 개발, 운영하고 다양한 비즈니스 업무를 자동화 한 경험이 있습니다.   
+  <br>
+  명확한 Input과 Output, Feedback을 바탕으로 일을 처리하는 것을 좋아합니다.
+  이를 위해 어떤 세부사항도 간과하지 않고 살펴보며, 여러 예외적인 상황에 대응할 수 있도록 꼼꼼하게 준비하여 침착하게 해결할 수 있도록 노력해왔습니다.   
+  또한, 프로젝트의 방향성은 커뮤니케이션이 크게 좌우한다고 생각하기에 네트워킹 프로그램에 참여하여 다양한 사람들과 얘기하며 소통하는 방법을 배워나가고 있습니다.   
+  <br>
+  보안이란 최대한 번거롭게 하여 위험을 방지하는 것이라고 생각합니다.
+  복잡한 상황을 구현하기 위해 새로운 기술과 트렌드를 능동적이고 적극적으로 수용하고,
+  그 경험을 업무에 활용할 수 있도록 노력하고 있습니다.
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        title: 딕스코리아
+        sub_title: '2021.01 ~ 2023.11'
+        caption: Cloud Engineer
         description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
+            - Azure 기반 VDI 웹페이지 프론트엔드 / 백엔드 개발
+            - 그룹웨어 전자결재 시스템과 연동을 위한 Azure Active Directory 기반 사용자 관리 API 개발
+            - 실시간 중계 보고서 작성을 위한 데이터 전처리 API 개발
+            - Microsoft Power Platform 활용한 비즈니스 업무 자동화
+            - 기존 프로젝트 유지보수 및 고도화
 
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: 그룹웨어 전자결재 API 구축
+        sub_title: 2023.05 ~ 2023.06
+        description: | # this will include new lines to allow paragraphs
+            <br>
+            - 근로유형 신청 정보를 활용한 온-프레미스 AD 계정 정보 업데이트 API 개발
+            - 보안관리대상 사용 신청 정보를 활용한 Azure AD 사용자 관리 자동화
+            - 관리자가 수기로 실행하던 작업을 자동화하여 업무 처리 시간 절감
+            - 사용자 정보 누락 및 지연 등의 휴먼 에러 제거
+            - 개발 시 서비스 연계를 위한 모듈화의 중요성을 깨닫게 됨
+            - **Skill Keywords**   
+            <mark>Azure Functions</mark>, <mark>Azure Active Directory</mark>, <mark>Azure SQL</mark>, <mark>Azure Key Vault</mark>, <mark>Azure Devops</mark>, <mark>Microsoft Power Automate</mark>, <mark>Python</mark>, <mark>PowerShell</mark>
+      
+      - layout: top-middle
+        title: 실시간 내•외부 중계 보고서 개발
+        sub_title: 2023.01 ~ 2023.03
+        description: | # this will include new lines to allow paragraphs
+            <br>
+            - Power Automate용 환경 구성
+            - Power Automate를 이용한 웹 크롤링 기능 구현
+            - 실시간 운영 상황 모니터링 및 장애 대응
+            - **Skill Keywords**   
+            <mark>Microsoft Power Automate</mark>
+
+      - layout: top-middle
+        title: 세금계산서 및 반출신고 업무 자동화
+        sub_title: 2022.10 ~ 2022.12
+        description: | # this will include new lines to allow paragraphs
+            <br>
+            - 고객사 별 세금계산서 요청 알림 기능 개발
+            - 접수된 인보이스를 토대로 반출신고 업무 자동화
+            - 담당자가 수기로 진행하던 대량의 메일 전송 작업을 자동화하여 업무 효율성 향상
+            - 전사 수입 이력에 대한 데이터 누적 관리 용이
+            - 현업업무 분석부터 설계, 개발, 운영, 유지보수를 진행하여 전체적인 프로젝트 라이프 사이클을 경험
+            - **Skill Keywords**   
+            <mark>Microsoft Power Automate</mark>
+            
+      - layout: top-middle
+        title: VDI 웹페이지 제작 및 고도화
+        sub_title: 2021.11 ~ 2021.12, 2022.08 ~ 2022.09
+        description: | # this will include new lines to allow paragraphs
+            <br>
+            - Django 기반 프론트엔드 / 백엔드 환경 구성 및 전체 기능 구현
+            - Azure Key Vault를 이용한 웹사이트 내 민감 데이터(연결 문자열, 암호 등) 보호 기능 구현
+            - Microsoft Graph API를 이용한 사용자 액세스 제어 기능 구현
+            - WinRM을 사용하여 로컬 PC(Windows) 시작, 종료, 재부팅 기능 구현 
+            - RDP 파일 다운로드 기능 구현
+            - Cloud Messaging Service(Azure Service Bus)를 이용한 Azure Virtual Machine 생성 자동화
+            - 인터페이스 구현을 위해 다양한 Azure Service 기술 검토
+            - **Skill Keywords**   
+            <mark>Azure App Service</mark>, <mark>Azure SQL</mark>, <mark>Azure Automation</mark>, <mark>Azure Service Bus</mark>, <mark>Azure VM</mark>, <mark>Azure Key Vault</mark>, <mark>Azure Devops</mark>, <mark>Microsoft Graph API</mark>, <mark>Django</mark>, <mark>Python</mark>, <mark>PowerShell</mark>, <mark>JavaScript</mark>, <mark>HTML/CSS</mark>
+
+      - layout: top-middle
+        title: 법인카드 전표 생성 자동화 개발 및 고도화
+        sub_title: 2021.06 ~ 2021.08, 2022.05 ~ 2022.06
+        description: | # this will include new lines to allow paragraphs
+            <br>
+            - 서버리스 함수(Azure Functions)를 이용한 전표 생성 자동화
+            - 네이버웍스 API를 이용한 처리 결과 메세지 전송 기능 구현
+            - 자동화 프로세스 내에서 사용하기 위한 네이버웍스 운영 모듈 개발
+            - 비즈니스 로직 모듈화 작업을 진행하여 기존 대비 처리 시간 감소
+            - 문제 발생 시 신속하게 대응하기 위한 오류 알림 기능 개발
+            - **Skill Keywords**   
+            <mark>Azure Functions</mark>, <mark>Azure SQL</mark>, <mark>Azure Key Vault</mark>, <mark>Azure Devops</mark>, <mark>Microsoft Power Automate</mark>, <mark>Python</mark>
+
+  - title: Certificate # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: '2023.10'
+        description: '[AZ-104] Azure Administrator Associate'
+
+      - layout: left
+        title: '2023.08'
+        description: '[AZ-204] Azure Developer Associate'
+
+      - layout: left
+        title: '2022.04'
+        description: '[AZ-900] Azure Fundamentals'
+  
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+        title: 2016.03 ~ 2020.02
+        description: 경기과학기술대학교 컴퓨터모바일융합과
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+      - layout: left
+        title: 2012.03 ~ 2016.02
+        description: 선일여자고등학교
 
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+  - title: ETC # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: 2023.09 ~ 2023.10
+        description: '[KMOOC] 클라우드 보안 엔지니어 양성과정'
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      - layout: left
+        title: '2023.09'
+        description: '[GIT×Trend Micro] 정보보안 기초과정 프로그램'
+
+      - layout: left
+        title: '2023.08'
+        description: '[KISIA] 온택트 융합보안(클라우드)'
+
+      - layout: left
+        title: '2023.07'
+        description: '[WISET] 4th Seminar for Women in Cyber Security'
 
 # Footer
 footer_show_references: true
@@ -125,3 +201,5 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+
+github: [metadata]
