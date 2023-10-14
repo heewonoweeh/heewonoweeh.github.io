@@ -69,6 +69,7 @@ content:
         sub_title: '2021.01 ~ 2023.11'
         caption: Cloud Engineer
         description: | # this will include new lines to allow paragraphs
+            - Azure 기반 Cloud 보안 아키텍처 설계
             - 그룹웨어 전자결재 시스템과 연동을 위한 Azure Active Directory 기반 사용자 관리 API 개발
             - Azure 기반 VDI 웹페이지 프론트엔드 / 백엔드 개발
             - Azure와 Microsoft Power Platform 활용한 기업 디지털 트랜스포메이션
