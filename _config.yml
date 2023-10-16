@@ -48,17 +48,23 @@ additional_links:
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+# about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  3년 차 클라우드 엔지니어로 Azure 기반의 웹 서비스를 설계, 개발, 운영하고 다양한 비즈니스 업무를 자동화 한 경험이 있습니다.   
+  3년 차 클라우드 엔지니어로 Azure 기반의 서비스를 설계/개발/배포/운영하고 다양한 비즈니스 업무를 자동화한 경험이 있습니다.   
   <br>
-  명확한 Input과 Output, Feedback을 바탕으로 일을 처리하는 것을 좋아합니다.
-  이를 위해 어떤 세부사항도 간과하지 않고 살펴보며, 여러 예외적인 상황에 대응할 수 있도록 꼼꼼하게 준비하여 침착하게 해결할 수 있도록 노력해왔습니다.   
-  또한, 프로젝트의 방향성은 커뮤니케이션이 크게 좌우한다고 생각하기에 네트워킹 프로그램에 참여하여 다양한 사람들과 얘기하며 소통하는 방법을 배워나가고 있습니다.   
+  <h4><strong>저는 ___ 엔지니어입니다.</strong></h4>
+  <mark style='background-color: #345f53'>#꼼꼼한</mark>, <mark style='background-color: #345f53'>#대응력 빠른</mark>, <mark style='background-color: #345f53'>#끈질긴</mark>   
+  명확한 Input과 Output, Feedback을 바탕으로 일을 처리하는 것을 좋아합니다.    
+  이를 위해 어떤 세부 사항도 간과하지 않고 살펴보며, 여러 예외적인 상황에 대응할 수 있도록 꼼꼼하게 준비하여 침착하게 해결할 수 있도록 노력해 왔습니다.   
   <br>
-  보안이란 최대한 번거롭게 하여 위험을 방지하는 것이라고 생각합니다.
-  복잡한 상황을 구현하기 위해 새로운 기술과 트렌드를 능동적이고 적극적으로 수용하고,
-  그 경험을 업무에 활용할 수 있도록 노력하고 있습니다.
+  문제 해결을 위한 끈질김은 개발에도 똑같이 적용된다고 생각합니다.   
+  확장성 및 성능 최적화된 아키텍처 구현을 위해 새로운 기술과 트렌드를 적극적으로 수용하고 업무에 활용할 수 있도록 노력하고 있습니다.   
+  <br>
+  <h4><strong>관심있는 기술분야는 ___ 입니다.</strong></h4>
+  <mark style='background-color: #345f53'>#Multi Cloud</mark>, <mark style='background-color: #345f53'>#Cloud security</mark>,, <mark style='background-color: #345f53'>#MSA</mark>, <mark style='background-color: #345f53'>#커뮤니케이션</mark>   
+  - Multi Cloud 구축 트렌드에 대응하기 위해 AWS 기반 보안 인증 시스템, 네트워크, 로드밸런서를 구축해 보았습니다.   
+  - 다양한 언어나 프레임워크를 사용하는 마이크로 서비스 구축을 위한 쿠버네티스를 공부하고 있습니다.
+  - 네트워킹 프로그램에 참여하여 직장 내뿐만 아니라 고객사와의 소통 방식에 대해 언제나 고민하고 있습니다.
 
 content:
   - title: Experience # Title for the section
@@ -70,8 +76,8 @@ content:
         caption: Cloud Engineer
         description: | # this will include new lines to allow paragraphs
             - Azure 기반 Cloud 보안 아키텍처 설계
-            - 그룹웨어 전자결재 시스템과 연동을 위한 Azure Active Directory 기반 사용자 관리 API 개발
-            - Azure 기반 VDI 웹페이지 프론트엔드 / 백엔드 개발
+            - Azure Active Directory 기반 사용자 관리 API 개발
+            - Azure App Service 기반 VDI 웹페이지 프론트엔드 / 백엔드 개발
             - Azure와 Microsoft Power Platform 활용한 기업 디지털 트랜스포메이션
             - 기존 프로젝트 유지보수 및 고도화
 
@@ -116,13 +122,13 @@ content:
             - Azure Key Vault를 이용한 데이터베이스 연결 정보, 네이버웍스 API 키, 토큰 보호
             - Azure Functions를 이용한 액세스 토큰 유효성 검사 및 재발급 자동화
             - 자동화 프로세스 내에서 사용하기 위한 네이버웍스 운영 모듈 개발
-            - 네이버웍스 API를 이용한 처리 결과 메세지 전송 기능 구현
+            - 네이버웍스 API를 이용한 처리 결과 메시지 전송 기능 구현
             - 문제 발생 시 신속하게 대응하기 위한 오류 알림 기능 구현
             - **Skill Keywords**   
             <mark>Azure Functions</mark>, <mark style='background-color: #0366d6'>Azure Key Vault</mark>, <mark>Azure Devops</mark>, <mark>Azure SQL</mark>, <mark>Microsoft Power Automate</mark>, <mark>Python</mark>
 
       - layout: left
-        title: 실시간 내•외부<br>중계 보고서 개발
+        title: 실시간 내/외부<br>중계 보고서 개발
         sub_title: 농협중앙회
         caption: 2023.01 ~ 2023.03
         description: | # this will include new lines to allow paragraphs
@@ -140,7 +146,6 @@ content:
         sub_title: 네패스
         caption: 2022.10 ~ 2022.12
         description: | # this will include new lines to allow paragraphs
-            <br>
             - 내부망 동작을 위한 Power Automate 자동화 시스템 환경 구축
             - 고객사별 세금계산서 요청 알림 기능 구현
             - 접수된 인보이스를 토대로 반출신고 업무 자동화
