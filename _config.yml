@@ -9,7 +9,7 @@ version: 2
 name: 윤희원(Heewon Yun)
 title: Cloud Engineer
 email: heewonoweeh@gmail.com
-# website: www.github.com/sproogen/resume-theme # 포트폴리오 사이트로 변경**
+website: 'https://url.kr/ofa27k'
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -60,9 +60,9 @@ about_content: | # this will include new lines to allow paragraphs
   문제 해결을 위한 끈질김은 개발에도 똑같이 적용된다고 생각합니다.   
   확장성 및 성능 최적화된 아키텍처 구현을 위해 새로운 기술과 트렌드를 적극적으로 수용하고 업무에 활용할 수 있도록 노력하고 있습니다.   
   <br>
-  <h4><strong>관심있는 기술분야는 ___ 입니다.</strong></h4>
+  <h4><strong>관심있는 분야는 ___ 입니다.</strong></h4>
   <mark style='background-color: #345f53'>#Multi Cloud</mark>, <mark style='background-color: #345f53'>#Cloud security</mark>, <mark style='background-color: #345f53'>#MSA</mark>, <mark style='background-color: #345f53'>#커뮤니케이션</mark>   
-  - Multi Cloud 구축 트렌드에 대응하기 위해 AWS 기반 보안 인증 시스템, 네트워크, 로드밸런서를 구축해 보았습니다.   
+  - Multi Cloud 트렌드에 대응하기 위해 AWS 기반 보안 인증 시스템, 네트워크, 로드밸런서를 구축해 보았습니다.   
   - 다양한 언어나 프레임워크를 사용하는 마이크로 서비스 구축을 위한 쿠버네티스를 공부하고 있습니다.
   - 네트워킹 프로그램에 참여하여 직장 내뿐만 아니라 고객사와의 소통 방식에 대해 언제나 고민하고 있습니다.
 
