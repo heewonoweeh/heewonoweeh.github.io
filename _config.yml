@@ -9,7 +9,7 @@ version: 2
 name: 윤희원(Heewon Yun)
 title: Cloud Engineer
 email: heewonoweeh@gmail.com
-website: https://url.kr/ofa27k
+website: https://bit.ly/407lT4c
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -75,10 +75,10 @@ content:
         sub_title: '2021.01 ~ 2023.11'
         caption: Cloud Engineer
         description: | # this will include new lines to allow paragraphs
-            - Azure 기반 Cloud 보안 아키텍처 설계
+            - Azure 기반 Cloud 아키텍처 설계
             - Azure Active Directory 기반 사용자 관리 API 개발
             - Azure App Service 기반 VDI 웹페이지 프론트엔드 / 백엔드 개발
-            - Azure와 Microsoft Power Platform 활용한 기업 디지털 트랜스포메이션
+            - Azure와 Microsoft Power Platform을 활용한 기업 디지털 트랜스포메이션
             - 기존 프로젝트 유지보수 및 고도화
 
   - title: Projects # Title for the section
