@@ -85,6 +85,19 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: NAS to SharePoint<br>이관
+        sub_title: 비오팜
+        caption: 2023.11 ~ 2023.12
+        description: | # this will include new lines to allow paragraphs
+            <br>
+            - SharePoint 구성 및 NAS 네트워크 드라이브 이관
+            - 문서 중앙화를 통해 문서 관리 편의성 및 보안 강화
+            - 기존 환경 분석 및 이관 계획 수립
+            - 부서별 권한 관리를 통한 사용자 별 접근 정책 설정
+            - **Skill Keywords**   
+            <mark>Microsoft 365</mark>, <mark>Microsoft Migration Manager</mark> 
+      
+      - layout: left
         title: 그룹웨어 전자결재<br>API 구축
         sub_title: 웅진씽크빅
         caption: 2023.05 ~ 2023.06
