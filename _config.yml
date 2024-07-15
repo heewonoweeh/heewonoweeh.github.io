@@ -9,7 +9,7 @@ version: 2
 name: 윤희원(Heewon Yun)
 title: Cloud Engineer
 email: heewonoweeh@gmail.com
-website: https://bit.ly/407lT4c
+website: https://bit.ly/3WbZtOR
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -50,7 +50,7 @@ additional_links:
 # about_title: About Me
 # about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  3년 차 클라우드 엔지니어로 Azure 기반의 서비스를 설계/개발/배포/운영하고 다양한 비즈니스 업무를 자동화한 경험이 있습니다.   
+  4년 차 클라우드 엔지니어로 Azure 기반의 서비스를 설계/개발/배포/운영하고 다양한 비즈니스 업무를 자동화한 경험이 있습니다.   
   <br>
   <h4><strong>저는 ___ 엔지니어입니다.</strong></h4>
   <mark style='background-color: #345f53'>#꼼꼼한</mark>, <mark style='background-color: #345f53'>#대응력 빠른</mark>, <mark style='background-color: #345f53'>#끈질긴</mark>   
@@ -71,8 +71,16 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: 메가존클라우드
+        sub_title: '2024.03 ~'
+        caption: Azure Solutions Architect
+        description: | # this will include new lines to allow paragraphs
+            - Azure 기반 Cloud 아키텍처 설계
+            - Azure와 Microsoft Power Platform을 활용한 기업 디지털 트랜스포메이션
+            
+      - layout: left
         title: 딕스코리아
-        sub_title: '2021.01 ~'
+        sub_title: '2021.01 ~ 2024.02'
         caption: Cloud Engineer
         description: | # this will include new lines to allow paragraphs
             - Azure 기반 Cloud 아키텍처 설계
@@ -84,6 +92,19 @@ content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: left
+        title: Power Platform & LLM<br>연결 PoC
+        sub_title: 동아일보
+        caption: 2024.06
+        description: | # this will include new lines to allow paragraphs
+            <br>
+            - 고객 내부망 DB 연결을 위한 네트워크 구성
+            - 고객 DB 데이터 추출 및 전처리
+            - LLM을 활용한 데이터 처리(텍스트 요약, 문맥 정리, 오탈자 확인)
+            - 스케줄링을 통한 데이터 적재 자동화
+            - **Skill Keywords**   
+            <mark>Microsoft Power Automate</mark>, <mark>Microsoft Migration Manager</mark>, <mark>On-premise Data Gateway</mark>  
+
       - layout: left
         title: NAS to SharePoint<br>이관
         sub_title: 비오팜
@@ -168,6 +189,14 @@ content:
   - title: Certificate # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: left
+        title: '2024.06'
+        description: '![az500](/images/az500.jpg){: width="50px" height="50px"} [AZ-500] Azure Security Engineer Associate '
+      
+      - layout: left
+        title: '2024.05'
+        description: '![ai102](/images/ai102.jpg){: width="50px" height="50px"} [AI-102] Azure AI Engineer Associate '
+
       - layout: left
         title: '2023.10'
         description: '![az104](/images/az104.jpg){: width="50px" height="50px"} [AZ-104] Azure Administrator Associate '
